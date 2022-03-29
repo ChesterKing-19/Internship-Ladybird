@@ -1,0 +1,57 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 1000px;
+    margin-top: 8rem;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ced4da2f;
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+    padding: 0 40px 0 40px;
+}
+.box div{
+    margin-top: 1.5rem;
+}
+.box h1{
+    font-weight: 400;
+    margin-top: -150px;
+    margin-bottom: 40px;
+}
+.box table{
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+.box table thead{
+    background: rgb(17, 16, 16);
+    color: white;
+}
+.box table td{
+    padding: 15px 0 15px 0px;
+}
+.box table th{
+    padding: 15px 0 15px 0px;
+}
+.box .nav-tabs{
+    position: relative;
+    width: 850px;
+}
+.tab-pane{
+    width: 850px;
+    height: 250px;
+}
+.badge{
+    margin-left: 5px;
+    font-size: xx-small;
+}
+#btn{
+    font-size: 0.9em;
+}
+#logoIcon{
+    position: absolute;
+    bottom: 93.9%;
+    left:7%;
+    height: 110px;
+}

@@ -1,0 +1,87 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 40px 40px;
+    height: 750px;
+    width: 1000px;
+    margin-top: 7rem;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ced4da2f;
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+}
+.accIcon{
+    height: 200px;
+}
+h1{
+    margin-top:20px;
+}
+.subBox{
+    margin-top: 30px;
+    width: 800px;
+}
+.subBox .form-control{
+    margin-bottom: 20px;
+    height: 2.7em;
+}
+.subBox #wp{
+    width: 20em;
+}
+.form-control:disabled{
+    background-color: white;
+}
+.form-check{
+    position: relative;
+    top: 38%;
+    left: -14%;
+}
+.form-check label{
+    font-size: x-large;
+    margin-right: 25px;
+}
+.box .btn{
+    position: relative;
+    height: 4rem;
+    width:14rem;
+    border-style:none;
+    border-radius: 60px;
+    background-color: rgba(170,0,255,1);
+    font-size: x-large;
+    margin-top: 40px;
+    transition: 0.5s all ease;
+    outline: none;
+    z-index: 1;
+}
+.box .btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right:50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgba(47,64,233,1);
+    border-radius: 60px;
+}
+.box .btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.editProfileIcon{
+    position: relative;
+    top: -10%;
+    left: -3%;
+    height: 25px;
+}
+#logoIcon{
+    position: absolute;
+    bottom: 93.2%;
+    left:7%;
+    height: 110px;
+}

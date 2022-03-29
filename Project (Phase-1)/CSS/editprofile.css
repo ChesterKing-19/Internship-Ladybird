@@ -1,0 +1,132 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 40px 40px 40px 40px;
+    height: 500px;
+    width: 1400px;
+    margin-top: 7rem;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ced4da2f;
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+}
+.box .nav-tabs{
+    width: 1320px;
+}
+.acc_Icon{
+    margin-top:-20px;
+    margin-left: 50px;
+    height: 200px;
+}
+#C_btn{
+    position: relative;
+    margin-top: 280px;
+    margin-left: -200px;
+    background-color: rgba(170,0,255,1);
+    border-style: none;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 60px;
+    outline: none;
+    z-index: 1;
+    font-size: larger;
+}
+#C_btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right:50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgba(47,64,233,1);
+    border-radius: 60px;
+  }
+#C_btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+.form-control{
+    margin-bottom: 30px;
+    height: 2.7em;
+}
+.form-check{
+    position: relative;
+    top: 34%;
+    left: -12%;
+}
+.form-check label{
+    font-size: x-large;
+    margin-right: 35px;
+}
+.subBox{
+    width: 900px;
+    margin-top: -270px;
+    margin-left: 400px;
+}
+#wp{
+    width: 22.4em;
+}
+#upBtn{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 1100px;
+    width: 10em;
+    height: 3em;
+    background-color: rgba(170,0,255,1);
+    border-radius: 60px;
+    border-style: none;
+    font-size: larger;
+    outline: none;
+    z-index: 1;
+    font-size: larger;
+}
+#upBtn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right:50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgba(47,64,233,1);
+    border-radius: 60px;
+  }
+#upBtn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+  #change_Pass #upBtn{
+      margin-top: 80px;
+  }
+.subBox2{
+    margin-top:100px;
+}
+.changeimgIcon{
+    position: relative;
+    top:-10%;
+    left: -3%;
+    height: 20px;
+}
+.syncIcon{
+    position: relative;
+    top:-5%;
+    left: -3%;
+    height: 20px;
+}
+#logoIcon{
+    position: absolute;
+    bottom: 92%;
+    left:7%;
+    height: 110px;
+}
